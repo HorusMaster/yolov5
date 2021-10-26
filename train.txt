@@ -1,3 +1,6 @@
 python train.py --img 416 --workers 0 --batch 64 --epochs 10 --data data.yaml --cfg ./yolov5s6c.yaml --weights yolov5s.pt --cache
+python train.py --img 640 --workers 0 --batch 64 --epochs 10 --data data.yaml --cfg ./yolov5s6c.yaml --weights yolov5s.pt --cache
+
+python train.py --img 416 --batch 64 --epochs 300 --data data.yaml --cfg ./yolov5s6c.yaml --weights yolov5s.pt --cache
 
 python train.py --img 416 --batch 64 --epochs 10 --data data.yaml --cfg ./yolov5s6c.yaml --weights yolov5s.pt --cache
